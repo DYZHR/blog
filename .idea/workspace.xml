@@ -1,0 +1,404 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
+  <component name="ChangeListManager">
+    <list default="true" id="ca04ed15-ee69-447d-a44b-0a619636b792" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/dataSources.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/easyCodeTableSetting.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/encodings.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-admin/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-admin/src/main/java/com/sangeng/BlogAdminApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-admin/src/main/java/com/sangeng/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-admin/src/main/java/com/sangeng/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-admin/src/main/java/com/sangeng/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-admin/src/main/java/com/sangeng/controller/LoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-admin/src/main/java/com/sangeng/controller/MenuController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-admin/src/main/java/com/sangeng/controller/RoleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-admin/src/main/java/com/sangeng/controller/TagController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-admin/src/main/java/com/sangeng/controller/TestController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-admin/src/main/java/com/sangeng/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-admin/src/main/java/com/sangeng/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-admin/src/main/java/com/sangeng/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-admin/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-blog/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/SanGengBlogApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/config/SecurityConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/config/SwaggerConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/controller/ArticleController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/controller/BlogLoginController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/controller/CategoryController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/controller/CommentController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/controller/LinkController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/controller/UploadController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/controller/UserController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/job/RefreshBloomFilterJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/job/UpdateViewCountJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/runner/ViewCountRunner.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-blog/src/main/resources/application.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/annotion/SystemLog.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/aspect/LogAspect.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/config/BloomFilterConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/config/FastJsonRedisSerializer.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/config/MbatisPlusConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/config/RedisConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/config/WebConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/constants/SystemConstants.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/ResponseResult.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/dto/AddArticleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/dto/AddRoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/dto/RoleDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/dto/TagListDto.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Article.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/ArticleTag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Category.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Comment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Link.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/LoginUser.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Menu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/RoleMenu.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/Tag.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/User.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/entity/UserRole.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/vo/AdminUserInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/vo/ArticleDetailVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/vo/ArticleListVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/vo/ArticleWithTagVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/vo/BlogUserLoginVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/vo/CategoryVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/vo/CommentVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/vo/HotArticleVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/vo/LinkVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/vo/MenuTreeVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/vo/MenuVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/vo/PageVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/vo/RoutersVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/vo/TagVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/vo/UserInfoVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/domain/vo/getOneUserVo.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/enums/AppHttpCodeEnum.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/exception/SystemException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/filter/JwtAuthenticationTokenFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/handler/exception/GlobalExceptionHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/handler/mybatisplus/MyMetaObjectHandler.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/handler/security/AccessDeniedHandlerImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/handler/security/AuthenticationEntryPointImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/ArticleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/ArticleTagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/CategoryMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/CommentMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/LinkMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/MenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/RoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/RoleMenuMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/TagMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/UserMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/mapper/UserRoleMapper.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/ArticleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/ArticleTagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/BlogLoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/CategoryService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/CommentService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/LinkService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/LoginService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/MenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/RoleMenuService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/RoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/TagService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/UploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/UserRoleService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/UserService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/impl/ArticleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/impl/ArticleTagServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/impl/BlogLoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/impl/CategoryServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/impl/CommentServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/impl/LinkServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/impl/MenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/impl/OssUploadService.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/impl/RoleMenuServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/impl/RoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/impl/SystemLoginServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/impl/TagServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/impl/UserDetailsServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/impl/UserRoleServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/impl/UserServiceImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/utils/BeanCopyUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/utils/JwtUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/utils/PathUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/utils/RedisCache.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/utils/SecurityUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/utils/WebUtils.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/resources/mapper/MenuMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/main/resources/mapper/RoleMapper.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sangeng-framework/src/test/java/LeetCode.java" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Mybatis Mapper" />
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="generalSettings">
+      <MavenGeneralSettings>
+        <option name="mavenHome" value="$PROJECT_DIR$/../../Java/maven/apache-maven-3.8.6" />
+        <option name="userSettingsFile" value="D:\Java\maven\apache-maven-3.8.6\conf\settings.xml" />
+      </MavenGeneralSettings>
+    </option>
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="workspaceImportEnabled" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="MavenRunner">
+    <option name="skipTests" value="true" />
+  </component>
+  <component name="ProjectId" id="2MFyNlERygWG5NaEjep2QUJuYIA" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RequestMappingsPanelOrder0&quot;: &quot;0&quot;,
+    &quot;RequestMappingsPanelOrder1&quot;: &quot;1&quot;,
+    &quot;RequestMappingsPanelWidth0&quot;: &quot;75&quot;,
+    &quot;RequestMappingsPanelWidth1&quot;: &quot;75&quot;,
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;WebServerToolWindowFactoryState&quot;: &quot;false&quot;,
+    &quot;jdk.selected.JAVA_MODULE&quot;: &quot;1.8&quot;,
+    &quot;last_opened_file_path&quot;: &quot;D:/JavaNewProject/SGBlog/sangeng-framework/src/main/resources&quot;,
+    &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
+    &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
+    &quot;node.js.selected.package.eslint&quot;: &quot;(autodetect)&quot;,
+    &quot;node.js.selected.package.tslint&quot;: &quot;(autodetect)&quot;,
+    &quot;nodejs_package_manager_path&quot;: &quot;npm&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Modules&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;reference.projectsettings.compiler.javacompiler&quot;,
+    &quot;spring.configuration.checksum&quot;: &quot;7579647028f88ffa25dc1ebf88e56d94&quot;,
+    &quot;vue.rearranger.settings.migration&quot;: &quot;true&quot;
+  },
+  &quot;keyToStringList&quot;: {
+    &quot;DatabaseDriversLRU&quot;: [
+      &quot;mysql&quot;
+    ]
+  }
+}</component>
+  <component name="ReactorSettings">
+    <option name="notificationShown" value="true" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="com.sangeng.domain.vo" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="D:\JavaNewProject\SGBlog\sangeng-framework\src\main\java\com\sangeng\utils" />
+      <recent name="D:\JavaNewProject\SGBlog\sangeng-framework\src\main\java\com\sangeng\config" />
+      <recent name="D:\JavaNewProject\SGBlog\sangeng-blog\src\main\java\com\sangeng" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\JavaNewProject\SGBlog\sangeng-framework\src\main\resources\mapper" />
+    </key>
+    <key name="MoveClassesOrPackagesDialog.RECENTS_KEY">
+      <recent name="com.sangeng" />
+      <recent name="" />
+    </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="com.sangeng.config" />
+      <recent name="com.sangeng" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.LeetCode.test (1)">
+    <configuration name="LeetCode" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="LeetCode" />
+      <module name="sangeng-framework" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode.test (1)" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sangeng-framework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="LeetCode.test" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="sangeng-framework" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="LeetCode" />
+      <option name="METHOD_NAME" value="test" />
+      <option name="TEST_OBJECT" value="method" />
+      <option name="VM_PARAMETERS" value="-ea -XX:+PrintCommandLineFlags" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="BlogAdminApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sangeng-admin" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sangeng.BlogAdminApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sangeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SanGengBlogApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot" temporary="true" nameIsGenerated="true">
+      <module name="sangeng-blog" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.sangeng.SanGengBlogApplication" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.sangeng.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.LeetCode.test (1)" />
+        <item itemvalue="Spring Boot.BlogAdminApplication" />
+        <item itemvalue="Application.LeetCode" />
+        <item itemvalue="Spring Boot.SanGengBlogApplication" />
+        <item itemvalue="JUnit.LeetCode.test" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
+  <component name="SpringBeansView">
+    <option name="beanDetailsProportion" value="0.3" />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="ca04ed15-ee69-447d-a44b-0a619636b792" name="Changes" comment="" />
+      <created>1677377588234</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1677377588234</updated>
+      <workItem from="1677377589326" duration="2898000" />
+      <workItem from="1677380510808" duration="22174000" />
+      <workItem from="1677425001444" duration="79000" />
+      <workItem from="1677425573568" duration="788000" />
+      <workItem from="1677459833034" duration="26022000" />
+      <workItem from="1677509029877" duration="841000" />
+      <workItem from="1677546896965" duration="30622000" />
+      <workItem from="1677642143521" duration="24004000" />
+      <workItem from="1677723426961" duration="20348000" />
+      <workItem from="1677806391781" duration="14771000" />
+      <workItem from="1677847847919" duration="9125000" />
+      <workItem from="1677893285386" duration="17719000" />
+      <workItem from="1678001235179" duration="23898000" />
+      <workItem from="1678085787787" duration="18340000" />
+      <workItem from="1678172926681" duration="3160000" />
+      <workItem from="1678203262743" duration="698000" />
+      <workItem from="1678243589014" duration="849000" />
+      <workItem from="1678278478347" duration="2238000" />
+      <workItem from="1678284177314" duration="965000" />
+      <workItem from="1678287213973" duration="775000" />
+      <workItem from="1678289713815" duration="420000" />
+      <workItem from="1678348820751" duration="13907000" />
+      <workItem from="1678414978320" duration="8823000" />
+      <workItem from="1678498949959" duration="3334000" />
+      <workItem from="1678503869539" duration="29282000" />
+      <workItem from="1678586159743" duration="13181000" />
+      <workItem from="1678666671684" duration="4922000" />
+      <workItem from="1678757380294" duration="10595000" />
+      <workItem from="1678847220488" duration="10725000" />
+      <workItem from="1678937320211" duration="19433000" />
+      <workItem from="1679032153730" duration="1389000" />
+      <workItem from="1679140203212" duration="2395000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="3" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sangeng-framework/src/test/java/LeetCode.java</url>
+          <line>232</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/controller/UploadController.java</url>
+          <line>16</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sangeng-admin/src/main/java/com/sangeng/controller/UploadController.java</url>
+          <line>20</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/job/UpdateViewCountJob.java</url>
+          <line>28</line>
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sangeng-admin/src/main/java/com/sangeng/filter/JwtAuthenticationTokenFilter.java</url>
+          <line>34</line>
+          <option name="timeStamp" value="25" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sangeng-blog/src/main/java/com/sangeng/job/RefreshBloomFilterJob.java</url>
+          <line>33</line>
+          <option name="timeStamp" value="51" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/sangeng-framework/src/main/java/com/sangeng/service/impl/ArticleServiceImpl.java</url>
+          <line>117</line>
+          <option name="timeStamp" value="54" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="SpringBootApplicationConfigurationType">
+        <watch expression="applicationContext.getBean(&quot;bloomFilter&quot;)" language="JAVA" />
+      </configuration>
+    </watches-manager>
+  </component>
+  <component name="XSLT-Support.FileAssociations.UIState">
+    <expand />
+    <select />
+  </component>
+</project>
